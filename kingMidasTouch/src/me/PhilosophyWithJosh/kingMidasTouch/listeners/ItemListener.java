@@ -18,7 +18,7 @@ public class ItemListener implements Listener
 	private ArrayList<Material> itemsToCheck = new ArrayList<Material>();
 	private ArrayList<Material> itemsToReplace = new ArrayList<Material>();
 	
-	public ItemListener(Main pugin)
+	public ItemListener(Main plugin)
 	{
 		this.plugin = plugin;
 		

@@ -15,7 +15,7 @@ public class TouchListener implements Listener
 {
 	private Main plugin;
 	
-	public TouchListener(Main pugin)
+	public TouchListener(Main plugin)
 	{
 		this.plugin = plugin;
 		Bukkit.getPluginManager().registerEvents(this, plugin);
