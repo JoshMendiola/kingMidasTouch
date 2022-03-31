@@ -2,4 +2,5 @@ name: kingMidasTouch
 version: 1.0
 author: PhilosophyWithJosh
 main: me.PhilosophyWithJosh.kingMidasTouch.Main
+api-version: 1.15
 description: makes the player into king midas, turning everything into gold

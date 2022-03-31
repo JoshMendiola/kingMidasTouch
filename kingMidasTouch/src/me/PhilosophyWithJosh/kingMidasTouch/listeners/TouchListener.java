@@ -27,7 +27,10 @@ public class TouchListener implements Listener
 		Player midas = m.getPlayer();
 		Location loc = midas.getLocation().clone().subtract(0, 1, 0);
 		Block b = loc.getBlock();
-		b.setType(Material.GOLD_BLOCK);
+		if(b.getType() != Material.AIR)
+		{
+			b.setType(Material.GOLD_BLOCK);
+		}
 	}
 	
 	

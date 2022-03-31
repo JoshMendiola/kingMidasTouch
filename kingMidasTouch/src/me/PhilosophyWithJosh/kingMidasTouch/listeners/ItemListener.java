@@ -32,6 +32,8 @@ public class ItemListener implements Listener
 		itemsToCheck.add(Material.IRON_LEGGINGS);
 		itemsToCheck.add(Material.IRON_BOOTS);
 		itemsToCheck.add(Material.IRON_INGOT);
+		itemsToCheck.add(Material.CARROT);
+		itemsToCheck.add(Material.APPLE);
 		
 		itemsToReplace.add(Material.GOLDEN_AXE);
 		itemsToReplace.add(Material.GOLDEN_HOE);
@@ -43,6 +45,8 @@ public class ItemListener implements Listener
 		itemsToReplace.add(Material.GOLDEN_LEGGINGS);
 		itemsToReplace.add(Material.GOLDEN_BOOTS);
 		itemsToReplace.add(Material.GOLD_INGOT);
+		itemsToReplace.add(Material.GOLDEN_CARROT);
+		itemsToReplace.add(Material.GOLDEN_APPLE);
 		
 		Bukkit.getPluginManager().registerEvents(this, plugin);
 	}
